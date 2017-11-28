@@ -1,5 +1,6 @@
 # test
 
+<<<<<<< HEAD
 git config --global user.name "yourname"
 git config --global user.email "youremail"
 
@@ -7,12 +8,15 @@ git config --list  #这条命令来查看当前的所有配置
 
 
 git init
+=======
+>>>>>>> 55dd071bcd5e9b3f9a8e2442ef826fa932c27e53
 
 echo "# test" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/yingzhang536/test.git
+<<<<<<< HEAD
 git push -u origin master
 
 git clone 
@@ -33,3 +37,6 @@ git add .文件后缀   //将当前目录中的所有.文件后缀的文件加入到缓存区
 链接：http://www.jianshu.com/p/662d9bb9cadc
 來源：简书
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+=======
+git push -u origin master
+>>>>>>> 55dd071bcd5e9b3f9a8e2442ef826fa932c27e53
